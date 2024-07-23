@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00BFFF; /* Warna biru muda */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.profile-wrapper {
+    background: #ece2d8bd; /* Latar belakang kotak putih */
+    border-radius: 2%; /* Membuat kotak menjadi bentuk lingkaran */
+    padding: 30px; /* Jarak antara konten dan batas lingkaran */
+    box-shadow: 0 8px 16px rgba(8, 52, 171, 0.401); /* Efek timbul dengan bayangan */
+    display: inline-block;
+    position: relative;
+    background: linear-gradient(145deg, #FFFFFF, #E0E0E0); /* Gradient untuk efek timbul */
+    border: 3px solid #ADD8E6; /* Garis biru muda di sekitar kotak */
+    width: 350px; /* Atur lebar sesuai kebutuhan */
+    max-width: 90vw; /* Maksimal lebar responsif */
+
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #73cbe8; /* Lingkaran biru muda di sekitar gambar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan di sekitar gambar */
+}
+
+.name {
+    font-family: 'Titillium Web', sans-serif; /* Menggunakan font dari Google Fonts */
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    font-size: 40px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Ganti dengan warna sesuai kebutuhan */
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #FFFFFF; /* Latar belakang footer putih */
+    padding: 10px 20px; /* Jarak di dalam footer */
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Bayangan halus di footer */
+    position: fixed; /* Tetap di bagian bawah halaman */
+    bottom: 0;
+    left: 0;
+}
